@@ -1,0 +1,19 @@
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Keep Cesium's own widget chrome from covering the scene controls we want. */
+.cesium-viewer-bottom {
+  display: none;
+}
